@@ -16,11 +16,11 @@ public class PersonModel {
 	@Column(unique = true, nullable = false)
 	private Long id;
 
-	private String Name;
+	private String name;
 
-	private String LastName;
+	private String lastName;
 
-	private String Birthday;
+	private String birthday;
 
 	private String email;
 
@@ -37,27 +37,27 @@ public class PersonModel {
 	}
 
 	public String getName() {
-		return Name;
+		return name;
 	}
 
 	public void setName(String name) {
-		Name = name;
+		this.name = name;
 	}
 
 	public String getLastName() {
-		return LastName;
+		return lastName;
 	}
 
 	public void setLastName(String lastName) {
-		LastName = lastName;
+		this.lastName = lastName;
 	}
 
 	public String getBirthday() {
-		return Birthday;
+		return birthday;
 	}
 
 	public void setBirthday(String birthday) {
-		Birthday = birthday;
+		this.birthday = birthday;
 	}
 
 	public String getEmail() {
