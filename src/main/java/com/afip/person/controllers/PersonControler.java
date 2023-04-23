@@ -50,11 +50,11 @@ public class PersonControler {
 
 		if (personService.deletePerson(id))
 
-			message = "Se eliminó el usuario con id" + id;
+			message = "Se eliminó el usuario con id " + id;
 
 		else
 
-			message = "No se pudo eliminar el usuario con id" + id;
+			message = "No se pudo eliminar el usuario con id " + id;
 
 		return message;
 	}
