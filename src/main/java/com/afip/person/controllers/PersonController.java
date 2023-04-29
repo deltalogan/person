@@ -18,7 +18,7 @@ import com.afip.person.services.PersonService;
 
 @RestController
 @RequestMapping("/person")
-public class PersonControler {
+public class PersonController {
 
 	@Autowired
 	PersonService personService;
